@@ -1,0 +1,23 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>...</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="background"></div>
+  <div class="overlay"></div>
+  <div class="container">
+    <h1>Ви Програли</h1>
+    <p>
+    Ви пійшли у шахту та вас з"їли
+    </p>
+    <nav>
+      <a href="rules.html">Почати Заного</a>
+      <a href="index.html">Меню</a>
+    </nav>
+  </div>
+
+</body>
+</html>
