@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: white;
+}
+.background {
+  background-image: url('https://images.wallpaperscraft.ru/image/single/luna_derevia_chb_189967_3840x2160.jpg');
+  background-size: cover;
+  background-position: center;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5
+}
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.container {
+  position: relative;
+  text-align: center;
+  padding-top: 100px;
+}
+h1 {
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+nav a {
+  display: inline-block;
+  margin: 10px;
+  padding: 12px 25px;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  border-radius: 25px;
+  transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+nav a:hover {
+  background-color: black;
+  color: white;
+  box-shadow: 0 0 15px 5px white;
+}
+  .quest3-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.quest3-image {
+  flex: 1 1 40%;
+}
+
+.quest3-image img {
+  width: 85%;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+}
+
+.quest3-text {
+  flex: 1 1 55%;
+  color: white;
+  font-size: 18px;
+}
+
+.quest3-text nav a {
+  display: inline-block;
+  margin-top: 15px;
+  margin-right: 15px;
+  padding: 12px 24px;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  border-radius: 25px;
+  transition: 0.3s;
+}
+
+.quest3-text nav a:hover {
+  background-color: black;
+  color: white;
+  box-shadow: 0 0 15px white;
+}
