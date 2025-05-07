@@ -56,3 +56,15 @@ nav a:hover {
 .rules li::before {
   content: "🌑 ";
 }
+.image1{
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .image1 img {
+      width: 35%;
+      border: 10px double white;
+      border-radius: 10px;
+      
+    }
+
